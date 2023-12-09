@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_hander"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="子线程更新主线程的UI">
+    </Button>
+    <Button
+        android:id="@+id/btn_thread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="子线程">
+    </Button>
+    <Button
+        android:id="@+id/btn_json"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="json请求数据">
+    </Button>
+    <Button
+        android:id="@+id/btn_servlet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="访问服务器servlet数据">
+    </Button>
+
+</LinearLayout>
